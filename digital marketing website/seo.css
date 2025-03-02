@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  margin: 0%;
+  padding: 0%;
+  background-color: #f4f4f4;
+  color: #333333;
+}
+nav {
+  background: #005bb5;
+  padding: 10px;
+  text-align: center;
+}
+
+header {
+  background: hwb(210 0% 10%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+nav ul {
+  list-style: none;
+}
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  box-shadow: 0px 0p 10px rgba(0, 0, 0, 0.1);
+}
+p.stats-1 {
+  background: yellow;
+  color: white;
+  padding: 10px;
+  margin-right: 5%;
+  font-weight: bold;
+}
+p.stats-2 {
+  background: yellow;
+  color: white;
+  padding: 10px;
+  margin-right: 5%;
+  font-weight: bold;
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    color: brown;
+  }
+}
